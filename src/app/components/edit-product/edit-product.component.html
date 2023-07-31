@@ -1,0 +1,14 @@
+<div *ngIf="product">
+    <h1>Title </h1>
+    <input [(ngModel)]="product.title" placeholder="title">
+    <button (click)="updateTitleData(product.title)">Editar Titulo</button>
+
+    <h1>Preço </h1>
+    <input [(ngModel)]="product.price" placeholder="price">
+    <button (click)="updatePriceData(product.price)">Editar Preço</button>
+
+    <h1>Title </h1>
+    <input [(ngModel)]="product.quantify" placeholder="quantity">
+    <button (click)="updateQuantifyData(product.quantify)">Editar Quantidade</button>
+
+</div>
